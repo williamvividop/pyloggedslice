@@ -1,0 +1,12 @@
+{
+  "name": "transformer-6bf055",
+  "version": "1.5.0",
+  "description": "A transformer utility",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "keywords": ["transformer", "utility"],
+  "license": "MIT"
+}

